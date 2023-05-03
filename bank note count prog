@@ -1,0 +1,48 @@
+n = int(input())
+if(n>=2000 or n<=1000):
+    c = n//2000
+    n = n%2000
+    print("2000 =",c)
+    
+
+if(n>=1000 or n<=500):
+    c = n//1000
+    n = n%1000
+    print("1000 = ",c)
+    
+if(n>=500 or n<=200):
+    c = n//500
+    n = n%500
+    print("500 = ",c)
+    
+if(n>=200 or n<=100):
+    c = n//200
+    n = n%200
+    print("200 = ",c)
+    
+if(n>=100 or n<=50):
+    c = n//100
+    n = n%100
+    print("100 = ",c)
+    
+if(n>=50 or n<=20):
+    c = n//50
+    n = n%50
+    print("50 = ",c)
+    
+    
+if(n>=10 or n<=5):
+    c = n//10
+    n = n%10
+    print("10 = ",c)
+    
+if(n>=5 or n<=2):
+    c = n//5
+    n = n%5
+    print("5 = ",c)
+
+    
+if(n>=1 or n<=1):
+    c = n//1
+    n = n%1
+    print("1 = ",c)
