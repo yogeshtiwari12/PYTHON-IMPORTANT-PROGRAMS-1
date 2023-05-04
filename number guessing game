@@ -1,0 +1,19 @@
+import random
+r = random.randint(10,20)
+
+i = 0
+while i<=2:
+    n = int(input("enter num : "))
+
+    if(n==r):
+       print("you won num")
+       break
+    elif(n>r):
+        print("enter small num")
+    else:
+        print("enter greater num")
+        
+    i+=1
+if(n!=r):
+    print("you lost num is : ",r)
+    
